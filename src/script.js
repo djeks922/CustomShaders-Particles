@@ -21,10 +21,10 @@ const scene = new THREE.Scene();
 /**
  * Textures
  */
-const textureSize = {};
+// const textureSize = {};
 
 const textureLoader = new THREE.TextureLoader();
-const frenchTexture = textureLoader.load(
+textureLoader.load(
   "/assets/eli2.jfif",
   (texture) => {
     const width = texture.image.width;
